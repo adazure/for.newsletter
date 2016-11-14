@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="apps/styles/for.newsletter.css" />
+    <script src="apps/scripts/for.newsletter.js"></script>
+
+    <style>
+
+        input{
+            padding:10px;
+            border:1px solid #ddd;
+            box-sizing: border-box;
+            float:left;
+        }
+
+        input[type=button]{width: 20%;
+    background: #264967;
+    color: white;
+    border: 0;
+    height: 39px;
+    font-weight: bold;
+    font-size: 12px;
+        }
+        input[type=text]{
+            width:80%;
+        }
+        body{
+            font-size:13px;
+            font-family:arial;
+            color:#fff;
+ background: rgb(181,189,200);
+background: -moz-linear-gradient(-45deg,  rgba(181,189,200,1) 0%, rgba(130,140,149,1) 36%, rgba(40,52,59,1) 100%);
+background: -webkit-linear-gradient(-45deg,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%);
+background: linear-gradient(135deg,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=1 );
+
+            background-size:cover;
+            background-attachment: fixed;
+        }
+
+        h1,p{
+            margin:0;
+            padding:0;
+            line-height: 1em;
+        }
+        p{
+            margin:9px 0;
+        }
+        </style>
+</head>
+
+<body>
+
+    <div style="max-width:416px; margin:100px auto;">
+        <h1>Adazure Interactive'e Abone Olun</h1>
+        <p>Tüm yeniliklerden haberdar olmak için kayıt olun</p>
+        <input type="text" id="news" placeholder="Add your email address" spellcheck="false" class="for-newsletter" for-click="clickedNews" for-url="/postnewsletter"/><input type="button" id="clickedNews" value="KAYDET" />
+    </div>
+
+</body>
+
+</html>
